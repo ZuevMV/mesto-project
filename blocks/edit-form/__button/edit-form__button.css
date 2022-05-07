@@ -15,3 +15,11 @@
   opacity: 0.6;
   cursor: pointer;
 }
+
+@media all and (max-width: 621px) {
+  .edit-form__button {
+    min-height: 46px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

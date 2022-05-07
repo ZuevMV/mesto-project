@@ -17,3 +17,12 @@
   opacity: 0.6;
   cursor: pointer;
 }
+
+@media all and (max-width: 621px) {
+  .edit-form__close-button {
+    width: 20px;
+    height: 20px;
+    top: -36px;
+    right: 0px;
+  }
+}

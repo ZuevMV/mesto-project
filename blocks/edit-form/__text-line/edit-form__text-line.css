@@ -14,3 +14,9 @@
 .edit-form__text-line:last-of-type {
   margin-bottom: 48px;
 }
+
+@media all and (max-width: 621px) {
+  .edit-form__text-line:last-of-type {
+    margin-bottom: 45px;
+  }
+}
