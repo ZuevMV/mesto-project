@@ -1,0 +1,12 @@
+.edit-form__button {
+  min-height: 50px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  border-radius: 2px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}

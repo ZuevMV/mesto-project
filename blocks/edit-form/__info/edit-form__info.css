@@ -1,0 +1,9 @@
+.edit-form__info {
+    width: 358px;
+    margin: 54px 36px 36px;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

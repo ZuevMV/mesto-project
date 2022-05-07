@@ -1,0 +1,9 @@
+.popup__container {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  background-color: #000000;
+  opacity: 0.5;
+}
