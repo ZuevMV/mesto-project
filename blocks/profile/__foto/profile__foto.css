@@ -5,7 +5,7 @@
   border-radius: 50%;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 920px) {
   .profile__foto {
     margin: auto;
   }

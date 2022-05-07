@@ -1,23 +1,23 @@
 .footer {
-    max-width: 880px;
-    margin: auto;
-    margin-bottom: 60px;
+  max-width: 880px;
+  margin: auto;
+  margin-bottom: 60px;
 }
 
-@media all and (max-width: 900px) {
-    .footer {
-      max-width: 581px;
-    }
+@media all and (max-width: 920px) {
+  .footer {
+    max-width: 581px;
   }
+}
 
-@media all and (max-width: 780px) {
-    .footer {
-        max-width: 282px;
-    }
+@media all and (max-width: 621px) {
+  .footer {
+    max-width: 282px;
+  }
 }
 
 @media all and (max-width: 340px) {
-    .footer {
-        margin: 0px 19px 36px;
-    }
+  .footer {
+    margin: 0px 19px 36px;
+  }
 }

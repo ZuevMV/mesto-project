@@ -8,22 +8,16 @@
   flex-wrap: wrap;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 920px) {
     .gallery {
       width: 581px;
     }
   }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 621px) {
   .gallery {
     width: 282px;
     margin-top: 36px;
     margin-bottom: 48px;
   }
 }
-
-@media all and (max-width: 600px) {
-    .gallery {
-      width: 282px;
-    }
-  }

@@ -6,11 +6,16 @@
   color: #ffffff;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 920px) {
   .profile__subtitle {
     margin: auto;
     margin-top: 14px;
     text-align: center;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .profile__subtitle {
     font-size: 14px;
     line-height: 17px;
   }

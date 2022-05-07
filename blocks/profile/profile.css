@@ -6,7 +6,7 @@
   flex-direction: row;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 920px) {
   .profile {
     max-width: 100%;
     margin-top: 42px;

@@ -3,9 +3,14 @@
   margin-left: 30px;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 920px) {
+  .profile__party {
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 560px) {
   .profile__party {
     width: 282px;
-    margin: auto;
   }
 }

@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 920px) {
   .profile__info {
     margin: auto;
     flex-direction: column;

@@ -1,6 +1,6 @@
 .card {
   width: 282px;
-  min-height: 361px;
+  max-height: 361px;
   background-color: #ffffff;
   border-radius: 10px;
   margin-right: 17px;
@@ -14,7 +14,7 @@
   margin-right: 0px;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 920px) {
   .card:nth-of-type(3n) {
     margin-right: 17px;
   }
@@ -24,12 +24,17 @@
   }
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 621px) {
   .card {
-    max-width: 100%;
+    margin: auto;
+    margin: 0px 0px 20px;
   }
 
-  .card:nth-of-type(2n) {
-    margin-right: 17px;
+  .card:nth-of-type(3n) {
+    margin-right: 0px;
+  }
+
+  .card:last-of-type {
+    margin-bottom: 0px;
   }
 }

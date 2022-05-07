@@ -6,10 +6,15 @@
   color: #ffffff;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 920px) {
   .profile__title {
     margin: auto;
     margin-top: 22px;
+  }
+}
+ 
+@media all and (max-width: 560px) {
+  .profile__title {
     text-align: center;
     font-size: 27px;
     line-height: 33px;
