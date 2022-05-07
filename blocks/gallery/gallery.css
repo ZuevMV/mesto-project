@@ -1,0 +1,29 @@
+.gallery {
+  max-width: 880px;
+  margin: auto;
+  margin-top: 46px;
+  margin-bottom: 47px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 900px) {
+    .gallery {
+      width: 581px;
+    }
+  }
+
+@media all and (max-width: 780px) {
+  .gallery {
+    width: 282px;
+    margin-top: 36px;
+    margin-bottom: 48px;
+  }
+}
+
+@media all and (max-width: 600px) {
+    .gallery {
+      width: 282px;
+    }
+  }

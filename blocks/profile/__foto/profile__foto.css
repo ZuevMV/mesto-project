@@ -1,0 +1,12 @@
+.profile__foto {
+  width: 120px;
+  height: 120px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+@media all and (max-width: 780px) {
+  .profile__foto {
+    margin: auto;
+  }
+}

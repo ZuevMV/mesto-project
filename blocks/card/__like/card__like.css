@@ -1,0 +1,13 @@
+.card__like {
+    min-width: 22px;
+    min-height: 19px;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    overflow: visible;
+    background-image: url('../../../images/Vector3.svg');
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
