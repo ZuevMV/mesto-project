@@ -1,4 +1,4 @@
-.edit-form {
+.form {
   width: 430px;
   max-height: 330px;
   position: relative;
@@ -11,7 +11,7 @@
 }
 
 @media all and (max-width: 621px) {
-  .edit-form {
+  .form {
     width: 282px;
     max-height: 322px;
     margin: 123px auto;
