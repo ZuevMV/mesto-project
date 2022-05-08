@@ -5,10 +5,14 @@
   margin-left: 30px;
   padding: 0;
   border: none;
+  background-image: url("../../../../images/Vector3.svg");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card__like:hover {
-  opacity: 0.6;
+  opacity: 0.5;
   cursor: pointer;
 }
 

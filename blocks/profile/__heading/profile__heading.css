@@ -1,0 +1,19 @@
+.profile__heading {
+  max-width: 294px;
+  margin: 0;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #ffffff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media all and (max-width: 560px) {
+  .profile__heading {
+    max-width: 249px;
+    font-size: 27px;
+    line-height: 33px;
+  }
+}

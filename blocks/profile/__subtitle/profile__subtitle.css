@@ -4,6 +4,9 @@
   line-height: 22px;
   font-weight: 400;
   color: #ffffff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media all and (max-width: 920px) {

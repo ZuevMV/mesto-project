@@ -1,19 +1,13 @@
 .form {
-  width: 430px;
-  max-height: 330px;
-  position: relative;
-  margin: 195px auto;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-  display: flex;
-  flex-direction: column;
+  width: 358px;
+  margin: 54px 36px 33px;
+  padding: 0;
+  border: none;
 }
 
 @media all and (max-width: 621px) {
   .form {
-    width: 282px;
-    max-height: 322px;
-    margin: 123px auto;
+    width: 238px;
+    margin: 75px 22px 25px;
   }
 }

@@ -1,6 +1,5 @@
 .form__info {
-  width: 358px;
-  margin: 54px 36px 33px;
+  margin: 0;
   padding: 0;
   border: none;
   display: flex;
@@ -8,9 +7,3 @@
   justify-content: space-between;
 }
 
-@media all and (max-width: 621px) {
-  .form__info {
-    width: 238px;
-    margin: 75px 22px 25px;
-  }
-}
