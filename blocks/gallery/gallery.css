@@ -3,9 +3,6 @@
   margin: auto;
   margin-top: 46px;
   margin-bottom: 47px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 @media all and (max-width: 920px) {

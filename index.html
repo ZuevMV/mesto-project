@@ -34,79 +34,84 @@
         </div>
       </section>
       <section class="gallery">
-        <article class="card">
-          <img
-            class="card__image"
-            src="./images/kirill-pershin-1088404-unsplash.jpg"
-            alt="Монастырь в горах."
-          />
-          <div class="card__description">
-            <h2 class="card__title">Карачаевск</h2>
-            <button class="card__like" type="button"></button>
-          </div>
-        </article>
-        <article class="card">
-          <img
-            class="card__image"
-            src="./images/kirill-pershin-1404681-unsplash2.jpg"
-            alt="Горная вершина на горизонте покрытая туманной дымкой."
-          />
-          <div class="card__description">
-            <h2 class="card__title">Гора Эльбрус</h2>
-            <button class="card__like card__like_active" type="button"></button>
-          </div>
-        </article>
-        <article class="card">
-          <img
-            class="card__image"
-            src="./images/kirill-pershin-1556355-unsplash3.jpg"
-            alt="Остроконечная горная вершина покрытая ледником."
-          />
-          <div class="card__description">
-            <h2 class="card__title">Домбай</h2>
-            <button class="card__like" type="button"></button>
-          </div>
-        </article>
-        <article class="card">
-          <img
-            class="card__image"
-            src="./images/kirill-pershin-1404681-unsplash2.jpg"
-            alt="Горная вершина на горизонте покрытая туманной дымкой."
-          />
-          <div class="card__description">
-            <h2 class="card__title">Гора Эльбрус</h2>
-            <button class="card__like" type="button"></button>
-          </div>
-        </article>
-        <article class="card">
-          <img
-            class="card__image"
-            src="./images/kirill-pershin-1556355-unsplash3.jpg"
-            alt="Остроконечная горная вершина покрытая ледником."
-          />
-          <div class="card__description">
-            <h2 class="card__title">Домбай</h2>
-            <button class="card__like" type="button"></button>
-          </div>
-        </article>
-        <article class="card">
-          <img
-            class="card__image"
-            src="./images/kirill-pershin-1088404-unsplash.jpg"
-            alt="Монастырь в горах."
-          />
-          <div class="card__description">
-            <h2 class="card__title">Карачаево-Черкесск</h2>
-            <button class="card__like" type="button"></button>
-          </div>
-        </article>
+        <ul class="fotogallery">
+          <li class="card">
+            <img
+              class="card__image"
+              src="./images/kirill-pershin-1088404-unsplash.jpg"
+              alt="Монастырь в горах."
+            />
+            <div class="card__description">
+              <h2 class="card__title">Карачаевск</h2>
+              <button class="card__like" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="./images/kirill-pershin-1404681-unsplash2.jpg"
+              alt="Горная вершина на горизонте покрытая туманной дымкой."
+            />
+            <div class="card__description">
+              <h2 class="card__title">Гора Эльбрус</h2>
+              <button
+                class="card__like card__like_active"
+                type="button"
+              ></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="./images/kirill-pershin-1556355-unsplash3.jpg"
+              alt="Остроконечная горная вершина покрытая ледником."
+            />
+            <div class="card__description">
+              <h2 class="card__title">Домбай</h2>
+              <button class="card__like" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="./images/kirill-pershin-1404681-unsplash2.jpg"
+              alt="Горная вершина на горизонте покрытая туманной дымкой."
+            />
+            <div class="card__description">
+              <h2 class="card__title">Гора Эльбрус</h2>
+              <button class="card__like" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="./images/kirill-pershin-1556355-unsplash3.jpg"
+              alt="Остроконечная горная вершина покрытая ледником."
+            />
+            <div class="card__description">
+              <h2 class="card__title">Домбай</h2>
+              <button class="card__like" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="./images/kirill-pershin-1088404-unsplash.jpg"
+              alt="Монастырь в горах."
+            />
+            <div class="card__description">
+              <h2 class="card__title">Карачаево-Черкесск</h2>
+              <button class="card__like" type="button"></button>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
     </footer>
     <!--Всплывающая форма. Для подключения поставьте модикатор popup_opened в блок popup-->
-    <div class="popup">
+    <div class="popup popup_opened">
       <div class="popup__container">
         <button class="form__close-button" type="button"></button>
         <h3 class="form__heading">Редактировать профиль</h3>
