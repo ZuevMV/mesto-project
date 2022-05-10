@@ -1,4 +1,4 @@
-.fotogallery {
+.gallery__list {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -7,4 +7,3 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
